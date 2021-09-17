@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Microchip_SAMD:ATSAMD21E15B-M U?
+U 1 1 61A99C40
+P 3750 4450
+F 0 "U?" H 4394 4496 50  0000 L CNN
+F 1 "ATSAMD21E15B-M" H 4394 4405 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm" H 5100 2600 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf" H 3750 4450 50  0001 C CNN
+	1    3750 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Reference_Voltage:MCP1525-TT U?
+U 1 1 61A9F3E9
+P 8150 1600
+F 0 "U?" H 8020 1646 50  0000 R CNN
+F 1 "MCP1525-TT" H 8020 1555 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8175 1350 50  0001 L CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21653b.pdf" H 8150 1600 50  0001 C CIN
+	1    8150 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 3050 3250 0    50   Input ~ 0
+Meas1
+Text HLabel 3050 3350 0    50   Input ~ 0
+Meas2
+Text HLabel 3050 3450 0    50   Input ~ 0
+Meas3
+Text HLabel 3050 3550 0    50   Input ~ 0
+Meas4
+Text HLabel 3050 3650 0    50   Input ~ 0
+Meas5
+Text HLabel 3050 3750 0    50   Input ~ 0
+Meas6
+Text HLabel 3050 3150 0    50   Input ~ 0
+VRef
+Text HLabel 8550 1600 2    50   Output ~ 0
+VRef
+Text HLabel 3050 3850 0    50   Input ~ 0
+Ctrl1
+Text HLabel 3050 3950 0    50   Input ~ 0
+Ctrl2
+Text HLabel 3050 4250 0    50   Input ~ 0
+Ctrl3
+Text HLabel 3050 4350 0    50   Input ~ 0
+Ctrl4
+Text HLabel 3050 4450 0    50   Input ~ 0
+Ctrl5
+Text HLabel 3050 4550 0    50   Input ~ 0
+Ctrl6
+Text HLabel 3050 4650 0    50   Input ~ 0
+Cal
+Text HLabel 3050 5350 0    50   Input ~ 0
+USBD+
+Text HLabel 3050 5250 0    50   Input ~ 0
+USBD-
+Text HLabel 3050 5850 0    50   Input ~ 0
+SWCLK
+Text HLabel 3050 5950 0    50   Input ~ 0
+SWDIO
+Text HLabel 3050 6150 0    50   Input ~ 0
+RST
+Text HLabel 3050 2850 0    50   Input ~ 0
+XIN32
+Text HLabel 3050 2950 0    50   Input ~ 0
+XOUT32
+$EndSCHEMATC

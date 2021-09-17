@@ -1,0 +1,118 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3800 1050 2    50   Input ~ 0
+VCell1
+Text HLabel 3800 2150 2    50   Input ~ 0
+VCell2
+Text HLabel 3800 3250 2    50   Input ~ 0
+VCell3
+Text HLabel 3800 4350 2    50   Input ~ 0
+VCell4
+Text HLabel 3800 5450 2    50   Input ~ 0
+VCell5
+Text HLabel 3800 6550 2    50   Input ~ 0
+VCell6
+Text HLabel 4800 1050 0    50   Input ~ 0
+Ctrl1
+Text HLabel 4800 2150 0    50   Input ~ 0
+Ctrl2
+Text HLabel 4800 3250 0    50   Input ~ 0
+Ctrl3
+Text HLabel 4800 4350 0    50   Input ~ 0
+Ctrl4
+Text HLabel 4800 5450 0    50   Input ~ 0
+Ctrl5
+Text HLabel 4800 6550 0    50   Input ~ 0
+Ctrl6
+Text HLabel 4800 1150 0    50   Input ~ 0
+Cal1
+Text HLabel 4800 2250 0    50   Input ~ 0
+Cal2
+Text HLabel 4800 3350 0    50   Input ~ 0
+Cal3
+Text HLabel 4800 4450 0    50   Input ~ 0
+Cal4
+Text HLabel 4800 5550 0    50   Input ~ 0
+Cal5
+Text HLabel 4800 6650 0    50   Input ~ 0
+Cal6
+Text HLabel 4800 1650 0    50   Input ~ 0
+VRef
+Text HLabel 4800 1250 0    50   Input ~ 0
+Meas1
+Text HLabel 4800 2350 0    50   Input ~ 0
+Meas2
+Text HLabel 4800 3450 0    50   Input ~ 0
+Meas3
+Text HLabel 4800 4550 0    50   Input ~ 0
+Meas4
+Text HLabel 4800 5650 0    50   Input ~ 0
+Meas5
+Text HLabel 4800 6750 0    50   Input ~ 0
+Meas6
+$Sheet
+S 3800 950  1000 800 
+U 619F8CDA
+F0 "Cell 1 Measurement" 50
+F1 "Cell1_Measure.sch" 50
+$EndSheet
+$Sheet
+S 3800 2050 1000 800 
+U 61A092BB
+F0 "Cell 2 Measurement" 50
+F1 "Cell2_Measure.sch" 50
+$EndSheet
+$Sheet
+S 3800 3150 1000 800 
+U 61A09BF2
+F0 "Cell 3 Measurement" 50
+F1 "Cell3_Measure.sch" 50
+$EndSheet
+$Sheet
+S 3800 4250 1000 800 
+U 61A09CB0
+F0 "Cell 4 Measurement" 50
+F1 "Cell4_Measure.sch" 50
+$EndSheet
+$Sheet
+S 3800 5350 1000 800 
+U 61A09E78
+F0 "Cell 5 Measurement" 50
+F1 "Cell5_Measure.sch" 50
+$EndSheet
+$Sheet
+S 3800 6450 1000 800 
+U 61A09F11
+F0 "Cell 6 Measurement" 50
+F1 "Cell6_Measure.sch" 50
+$EndSheet
+Text HLabel 4800 2750 0    50   Input ~ 0
+VRef
+Text HLabel 4800 3850 0    50   Input ~ 0
+VRef
+Text HLabel 4800 4950 0    50   Input ~ 0
+VRef
+Text HLabel 4800 6050 0    50   Input ~ 0
+VRef
+Text HLabel 4800 7150 0    50   Input ~ 0
+VRef
+$Sheet
+S 6950 1750 1550 4000
+U 61A9983B
+F0 "Logger Control and Reference" 50
+F1 "Smarts.sch" 50
+$EndSheet
+$EndSCHEMATC
